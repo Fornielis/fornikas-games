@@ -4,6 +4,8 @@
 
 <p align="center">
 O intuito desse projeto era divulgar na região o serviço de construção e vendas de <em>fliperamas sob demanda</em>. </br>
+Apesar de ser um projeto simples, técnicas de responsividade estão presentes sem o auxílio de nenhum plugin.</br>
+<a href="https://games.fornielis.com/">VERSÃO DEMO</a>
 </p>
 
 <h1 align="center">
