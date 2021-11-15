@@ -1,0 +1,8 @@
+RESOLUÇÕES DE TELAS
+
+000 a 480 px:   300px de width 
+480 a 960 px:   600px de width 
+960 a --- px:  1200px de width
+
+SITE PARA CONSULTA
+http://screensiz.es/phone

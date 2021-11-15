@@ -1,0 +1,208 @@
+/*==========================================================================================================================================
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| MONITORES |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+===========================================================================================================================================*/
+/*==========================================================================================================================================
+                                                        CONFIGURAÇÕES GLOBAIS
+===========================================================================================================================================*/
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+/*==========================================================================================================================================
+                                                         ESTILOS - MONITORES
+===========================================================================================================================================*/
+body{background: url("../_IMG/img_fundo.jpg"); font-family: 'Arial'; font-size: 18px;}
+header{width: 1200px; height: 60px;}
+#tarja-topo{width: 100%; height: 50px; background-color: #1c1d29; border-top: solid 10px #383848; float: left; position: fixed;}
+#menu{width: 1200px; height: 60px; background-color: #1c1d29; position: fixed; z-index: 999;}
+#container-produtos{width: 1200px; height: 1280px; position: relative;}
+#rodape{width: 100%; background-color: #1c1d29; border-top: solid 3px #383848;}
+#tarja-inferior{width: 100%; height: 80px; background-color: #000000; border-top: solid 2px #383848; text-align: center;}
+	#tarja-inferior p{color: #cccccd; font-size: 13px; line-height: 20px; padding: 20px 0 0 0;}
+/*==========================================================================================================================================
+                                                          CLASSES - MONITORES
+===========================================================================================================================================*/
+.center{width: 1200px; margin: 0 auto;}
+
+.menu_texto{width: 300px; height: 60px; float: left; text-align: center; position: relative;}
+	.menu_texto a{text-decoration: none; color: #cccccd; font-size: 16px;}
+		.menu_texto a p{margin: 25px;}
+			.menu_texto_icon{width: 40px; height: 40px; position: absolute; top: 0;}
+				.menu_texto_icon img{width: 80%; height: 80%; padding: 19px 55px;}
+
+.menu_icon{width: 300px; height: 60px; position: absolute; box-shadow: 0px 1px 4px #000000; top: -50px; transition: top .5s;}
+	.menu_icon img{padding: 10px;}
+
+.home{background-color: #fcc800;}
+	.somos{background-color: #639fe3;}
+		.produto{background-color: #f10c0b;}
+			.contato{background-color: #f916d6;}
+
+.corpo-produtos{width: 1160px; height: 320px; background-color: #323240; margin: 0 20px;}
+	.tarja-produtos{width: 1200px; height: 53px; position: absolute; left: 0px;}
+		.tarja-produtos img{width: 100%; height: 100%;}
+			.titulo{width: 1160px; height: 42px; text-align: center; position: absolute; top: 11px; left: 20px;}
+				.titulo h1{padding: 7px; font-size: 25px;}
+					.titulo h1 span{color: #ffffff;}
+						.produtos-banner{width: 300px; height: 150px; position: absolute; border: solid 2px #1c1d29; overflow: hidden; top: 73px; left: 40px;}
+							.produtos-banner img{width: 300px; height: 150px;}
+								.produtos-descricao{width: 600px; height: 307px; position: absolute; top: 65px; left: 450px;}
+									.produtos-descricao p{color: #ffffff; line-height: 23px; font-size: 16px;}
+		
+.rodape-conteudo{width: 1200px; height: 200px; position: relative; text-align: center;}
+	.rodape-conteudo h1{width: 440px; height: 135px; position: absolute; top: 40px; left: 430px;}
+		.rodape-menu-containner{width: 245px; height: 50px; position: absolute; top: 75px;}
+			.rodape-menu-item{width: 50px; height: 50px; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%;float: left; margin-right: 15px; opacity: 1; transition: opacity .4s;} .margem-direita-zero{margin-right: 0;}
+				.rodape-menu-item img{padding: 5px;}
+
+.contenner-sociais{width: 115px; height: 50px; position: absolute; top: 75px; right: 0;}
+	.item-sociais{width: 50px; height: 50px; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%; float: left; margin-right: 15px;} .margem-direita-zero{margin-right: 0;}
+		.item-sociais img{padding: 5px;}
+			.face-1{background-color: #ffffff; position: relative;}
+				.face-2{background-color: #2556a1; position: absolute; top: 0; opacity: 0; transition: opacity .3s;}
+					.you-1{background-color: #ffffff; position: relative;}
+						.you-2{background-color: #ff182c; position: absolute; top: 0; opacity: 0; transition: opacity .3s;}
+/*==========================================================================================================================================
+                                                      EFEITO HOVER - MONITORES
+===========================================================================================================================================*/
+.menu_texto:HOVER .menu_icon{top: 0;}
+.btn_confira:HOVER{background-color: #383848;}
+.rodape-menu-item:HOVER {opacity: .5;}
+.face-1:HOVER .face-2{opacity: 1;}
+.you-1:HOVER .you-2{opacity: 1;}
+/*==========================================================================================================================================
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||| FIM -MONITORES |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+===========================================================================================================================================*/
+/*==========================================================================================================================================
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| TABLETS ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+===========================================================================================================================================*/
+@media(max-width: 960px){
+/*==========================================================================================================================================
+                                                         ESTILOS - TABLETS
+===========================================================================================================================================*/
+body{background: url("../_IMG/img_fundo.jpg"); font-family: 'Arial'; font-size: 18px;}
+header{width: 600px; height: 60px;}
+#tarja-topo{width: 100%; height: 50px; background-color: #1c1d29; border-top: solid 10px #383848; float: left; position: fixed;}
+#menu{width: 600px; height: 60px; background-color: #1c1d29; position: fixed; z-index: 999;}
+#container-produtos{width: 600px; height: 1280px; position: relative;}
+#rodape{width: 100%; background-color: #1c1d29; border-top: solid 3px #383848;;}
+#tarja-inferior{width: 100%; height: 80px; background-color: #000000; border-top: solid 2px #383848; text-align: center;}
+	#tarja-inferior p{color: #cccccd; font-size: 13px; line-height: 20px; padding: 20px 0 0 0;}
+/*==========================================================================================================================================
+                                                          CLASSES - TABLETS
+===========================================================================================================================================*/
+.center{width: 600px; margin: 0 auto;}
+
+.menu_texto{width: 150px; height: 60px; float: left; text-align: center; position: relative;}
+	.menu_texto a{text-decoration: none; color: #cccccd; font-size: 14px;}
+		.menu_texto a p{margin: 25px;}
+			.menu_texto_icon{width: 40px; height: 40px; position: absolute; top: 0;}
+				.menu_texto_icon img{width: 60%; height: 60%; padding: 20px 0px;}
+
+.menu_icon{width: 150px; height: 60px; position: absolute; box-shadow: 0px 1px 4px #000000; top: -50px; transition: top .5s;}
+	.menu_icon img{padding: 10px;}
+
+.home{background-color: #fcc800;}
+	.somos{background-color: #639fe3;}
+		.produto{background-color: #f10c0b;}
+			.contato{background-color: #f916d6;}
+
+.corpo-produtos{width: 560px; height: 320px; background-color: #323240; margin: 0 20px;}
+	.tarja-produtos{width: 590px; height: 53px; position: absolute; left: 5px;}
+		.tarja-produtos img{width: 100%; height: 100%;}
+			.titulo{width: 590px; height: 42px; text-align: center; position: absolute; top: 11px; left: 20px;}
+				.titulo h1{padding: 7px; font-size: 25px;}
+					.titulo h1 span{color: #ffffff;}
+						.produtos-banner{width: 90px; height: 41.5px; position: absolute; border: solid 0px #1c1d29; overflow: hidden; top: 11px; left: 10px;}
+							.produtos-banner img{width: 90px; height: 41.5px;}
+								.produtos-descricao{width: 550px; height: 307px; position: absolute; top: 65px; left: 25px;}
+									.produtos-descricao p{color: #ffffff; line-height: 23px; font-size: 15px;}
+
+.rodape-conteudo{width: 600px; height: 200px; position: relative; text-align: center;}
+	.rodape-conteudo h1{width: 440px; height: 135px; position: absolute; top: 10px; left: 80px;}
+		.rodape-menu-containner{width: 245px; height: 50px; position: absolute; top: 140px; left: 112.5px;}
+			.rodape-menu-item{width: 50px; height: 50px; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%;float: left; margin-right: 15px; opacity: 1; transition: opacity .4s;} .margem-direita-zero{margin-right: 0;}
+				.rodape-menu-item img{padding: 5px;}
+
+.contenner-sociais{width: 115px; height: 50px; position: absolute; top: 140px; left: 372.5px;}
+	.item-sociais{width: 50px; height: 50px; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%; float: left; margin-right: 15px;} .margem-direita-zero{margin-right: 0;}
+		.item-sociais img{padding: 5px;}
+			.face-1{background-color: #ffffff; position: relative;}
+				.face-2{background-color: #2556a1; position: absolute; top: 0; opacity: 0; transition: opacity .3s;}
+					.you-1{background-color: #ffffff; position: relative;}
+						.you-2{background-color: #ff182c; position: absolute; top: 0; opacity: 0; transition: opacity .3s;}
+/*==========================================================================================================================================
+                                                      EFEITO HOVER - TABLETS
+===========================================================================================================================================*/
+.menu_texto:HOVER .menu_icon{top: 0;}
+.btn_confira:HOVER{background-color: #383848;}
+.rodape-menu-item:HOVER {opacity: .5;}
+.face-1:HOVER .face-2{opacity: 1;}
+.you-1:HOVER .you-2{opacity: 1;}
+}
+/*==========================================================================================================================================
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||| FIM - TABLETS |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+===========================================================================================================================================*/
+/*==========================================================================================================================================
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| CELULARES ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+===========================================================================================================================================*/
+@media(max-width: 480px){
+/*==========================================================================================================================================
+                                                         ESTILOS CELULARES
+===========================================================================================================================================*/
+body{background: url("../_IMG/img_fundo.jpg"); font-family: 'Arial'; font-size: 18px;}
+header{width: 300px; height: 50px;}
+#tarja-topo{width: 100%; height: 40px; background-color: #1c1d29; border-top: solid 10px #383848; float: left; position: fixed;}
+#menu{width: 300px; height: 50px; background-color: #1c1d29; position: fixed; z-index: 999;}
+#container-produtos{width: 300px; height: 1560px; position: relative;}
+#rodape{width: 100%; background-color: #1c1d29; border-top: solid 3px #383848;}
+#tarja-inferior{width: 100%; height: 130px; background-color: #000000; border-top: solid 2px #383848; text-align: center;}
+	#tarja-inferior p{color: #cccccd; font-size: 12px; line-height: 20px; padding: 0px 0 0 0;}
+/*==========================================================================================================================================
+                                                           CLASSES CELULARES
+===========================================================================================================================================*/
+.center{width: 300px; margin: 0 auto;}
+
+.menu_texto{width: 75px; height: 50px; float: left; text-align: center; position: relative;}
+	.menu_texto a{text-decoration: none; color: #cccccd; font-size: 16px;}
+		.menu_texto a p{display: none;}
+			.menu_texto_icon{width: 40px; height: 40px; position: absolute; top: 0;}
+				.menu_texto_icon img{width: 80%; height: 80%; padding: 17px; opacity: 0;}
+
+.menu_icon{width: 75px; height: 50px; position: absolute; top: 0px;}
+	.menu_icon img{padding-top: 5px;}
+
+.home{background-color: #fcc800;}
+	.somos{background-color: #639fe3;}
+		.produto{background-color: #f10c0b;}
+			.contato{background-color: #f916d6;}
+
+.corpo-produtos{width: 280px; height: 390px; background-color: #323240; margin: 0 10px;}
+	.tarja-produtos{width: 300px; height: 53px; position: absolute; left: 0px;}
+		.tarja-produtos img{width: 100%; height: 100%;}
+			.titulo{width: 290px; height: 42px; text-align: center; position: absolute; top: 11px; left: 20px;}
+				.titulo h1{padding: 7px; font-size: 25px;}
+					.titulo h1 span{color: #ffffff;}
+						.produtos-banner{width: 90px; height: 41.5px; position: absolute; border: solid 0px #1c1d29; overflow: hidden; top: 11px; left: 0px;}
+							.produtos-banner img{width: 90px; height: 41.5px;}
+								.produtos-descricao{width: 250px; height: 307px; position: absolute; top: 65px; left: 22px;}
+									.produtos-descricao p{color: #ffffff; line-height: 19px; font-size: 13px;}
+
+.rodape-conteudo{width: 300px; height: 150px; position: relative; text-align: center;}
+	.rodape-conteudo h1{width: 300px; height: 135px; position: absolute; top: 5px;}
+		.rodape-conteudo h1 img{display: none;}
+			.rodape-menu-containner{width: 245px; height: 50px; position: absolute; top: 20px; left: 27.5px;}
+				.rodape-menu-item{width: 50px; height: 50px; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%;float: left; margin-right: 15px; opacity: 1; transition: opacity .4s;} .margem-direita-zero{margin-right: 0;}
+					.rodape-menu-item img{padding: 5px;}
+
+.contenner-sociais{width: 115px; height: 50px; position: absolute; top: 85px; left: 92.5px;}
+	.item-sociais{width: 50px; height: 50px; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%; float: left; margin-right: 15px;} .margem-direita-zero{margin-right: 0;}
+		.item-sociais img{padding: 5px;}
+			.face-1{background-color: #ffffff; position: relative;}
+				.face-2{background-color: #2556a1; position: absolute; top: 0; opacity: 0; transition: opacity .3s;}
+					.you-1{background-color: #ffffff; position: relative;}
+						.you-2{background-color: #ff182c; position: absolute; top: 0; opacity: 0; transition: opacity .3s;}
+
+.tarja-inferior-texto{width: 150px; height: 130px; margin: 5px auto;}
+}
+/*==========================================================================================================================================
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| FIM - CELULARES |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+===========================================================================================================================================*/

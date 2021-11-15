@@ -1,0 +1,254 @@
+/*==========================================================================================================================================
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| MONITORES |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+===========================================================================================================================================*/
+/*==========================================================================================================================================
+                                                        CONFIGURAÇÕES GLOBAIS
+===========================================================================================================================================*/
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+/*==========================================================================================================================================
+                                                         ESTILOS - MONITORES
+===========================================================================================================================================*/
+body{background: url("../_IMG/img_fundo.jpg"); font-family: 'Arial'; font-size: 18px;}
+header{width: 1200px; height: 60px;}
+#tarja-topo{width: 100%; height: 50px; background-color: #1c1d29; border-top: solid 10px #383848; float: left; position: fixed;}
+#menu{width: 1200px; height: 60px; background-color: #1c1d29; position: fixed; z-index: 999;}
+
+#logo{width: 1200px; height: 309px;}
+	#logo h1{text-align: center; top: 60px; margin: auto;}
+		#logo h1 img{margin: 0 85px;}
+
+#categoria-container{width: 1200px; height: 350px;margin: 20px auto;}
+
+#rodape{width: 100%; background-color: #1c1d29; border-top: solid 3px #383848;;}
+
+#tarja-inferior{width: 100%; height: 80px; background-color: #000000; border-top: solid 2px #383848; text-align: center;}
+	#tarja-inferior p{color: #cccccd; font-size: 13px; line-height: 20px; padding: 20px 0 0 0;}
+/*==========================================================================================================================================
+                                                          CLASSES - MONITORES
+===========================================================================================================================================*/
+.center{width: 1200px; margin: 0 auto;}
+
+.menu_texto{width: 300px; height: 60px; float: left; text-align: center; position: relative;}
+	.menu_texto a{text-decoration: none; color: #cccccd; font-size: 16px;}
+		.menu_texto a p{margin: 25px;}
+			.menu_texto_icon{width: 40px; height: 40px; position: absolute; top: 0;}
+				.menu_texto_icon img{width: 80%; height: 80%; padding: 19px 55px;}
+
+.menu_icon{width: 300px; height: 60px; position: absolute; box-shadow: 0px 1px 4px #000000; top: -50px; transition: top .5s;}
+	.menu_icon img{padding: 10px;}
+
+.home{background-color: #fcc800;}
+	.somos{background-color: #639fe3;}
+		.produto{background-color: #f10c0b;}
+			.contato{background-color: #f916d6;}
+
+.banner{width: 1190px; height: 300px; overflow: hidden; border: solid 5px #2b2b38; box-shadow: 1px 1px 4px #000000;}
+	.baneer-item{width: 1200px; height: 300px; position: relative;}
+		.banner-gif{width: 380px; height: 240px; border: solid 5px #2b2b38; position: absolute; bottom: 29px; right: 32px;}
+			.banner-gif-border{border: solid 0px #ed1300; right: 20px;}
+
+.categorias{width: 300px; height: 350px; float: left; position: relative; text-align: center;}
+	.categorias h2{width: 300px; position: absolute; top: 46px;}
+		.categorias h2 a{text-decoration: none; color: #cccccd;}
+			.categorias h2 a span{color: #1b1919;}
+
+.categorias-texto{width: 220px; height: 123px; position: absolute; top: 198px; left: 40px;}
+	.categorias-texto p{color: #cccccd; text-align: center; font-size: 14px; line-height: 21px;}
+		.categorias-banner{width: 220px; height: 100px; position: absolute; border: solid 2px #242430; overflow: hidden; top: 90px; left: 38px;}
+			.btn_confira{width: 150px; height: 30px; position: absolute; bottom: 25px; left: 75px; text-align: center;  background-color: #242430; transition: background-color .5s;}
+				.btn_confira p{width: 150px; height: 30px; padding: 3px 0;}
+					.btn_confira p a{text-decoration: none; color: #cccccd; font-size: 15px;}
+						.btn_confira p a span{font-size: 10px;}
+
+.rodape-conteudo{width: 1200px; height: 200px; position: relative; text-align: center;}
+	.rodape-conteudo h1{width: 440px; height: 135px; position: absolute; top: 40px; left: 430px;}
+		.rodape-menu-containner{width: 245px; height: 50px; position: absolute; top: 75px;}
+			.rodape-menu-item{width: 50px; height: 50px; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%;float: left; margin-right: 15px; opacity: 1; transition: opacity .4s;} .margem-direita-zero{margin-right: 0;}
+				.rodape-menu-item img{padding: 5px;}
+
+.contenner-sociais{width: 115px; height: 50px; position: absolute; top: 75px; right: 0;}
+	.item-sociais{width: 50px; height: 50px; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%; float: left; margin-right: 15px;} .margem-direita-zero{margin-right: 0;}
+		.item-sociais img{padding: 5px;}
+			.face-1{background-color: #ffffff; position: relative;}
+				.face-2{background-color: #2556a1; position: absolute; top: 0; opacity: 0; transition: opacity .3s;}
+					.you-1{background-color: #ffffff; position: relative;}
+						.you-2{background-color: #ff182c; position: absolute; top: 0; opacity: 0; transition: opacity .3s;}
+/*==========================================================================================================================================
+                                                      EFEITO HOVER - MONITORES
+===========================================================================================================================================*/
+.menu_texto:HOVER .menu_icon{top: 0;}
+.btn_confira:HOVER{background-color: #383848;}
+.rodape-menu-item:HOVER {opacity: .5;}
+.face-1:HOVER .face-2{opacity: 1;}
+.you-1:HOVER .you-2{opacity: 1;}
+/*==========================================================================================================================================
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||| FIM -MONITORES |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+===========================================================================================================================================*/
+/*==========================================================================================================================================
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| TABLETS ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+===========================================================================================================================================*/
+@media(max-width: 960px){
+/*==========================================================================================================================================
+                                                         ESTILOS - TABLETS
+===========================================================================================================================================*/
+body{background: url("../_IMG/img_fundo.jpg"); font-family: 'Arial'; font-size: 18px;}
+header{width: 600px; height: 60px;}
+#tarja-topo{width: 100%; height: 50px; background-color: #1c1d29; border-top: solid 10px #383848; float: left; position: fixed;}
+#menu{width: 600px; height: 60px; background-color: #1c1d29; position: fixed; z-index: 999;}
+
+#logo{width: 600px; height: 150px;}
+	#logo h1{text-align: center; top: 60px; margin: auto;}
+		#logo h1 img{width: 100%; height: 100%; margin: 20px auto;}
+
+#categoria-container{width: 600px; height: 700px;margin: 20px auto;}
+
+#rodape{width: 100%; background-color: #1c1d29; border-top: solid 3px #383848;;}
+
+#tarja-inferior{width: 100%; height: 80px; background-color: #000000; border-top: solid 2px #383848; text-align: center;}
+	#tarja-inferior p{color: #cccccd; font-size: 13px; line-height: 20px; padding: 20px 0 0 0;}
+/*==========================================================================================================================================
+                                                          CLASSES - TABLETS
+===========================================================================================================================================*/
+.center{width: 600px; margin: 0 auto;}
+
+.menu_texto{width: 150px; height: 60px; float: left; text-align: center; position: relative;}
+	.menu_texto a{text-decoration: none; color: #cccccd; font-size: 14px;}
+		.menu_texto a p{margin: 25px;}
+			.menu_texto_icon{width: 40px; height: 40px; position: absolute; top: 0;}
+				.menu_texto_icon img{width: 60%; height: 60%; padding: 20px 0px;}
+
+.menu_icon{width: 150px; height: 60px; position: absolute; box-shadow: 0px 1px 4px #000000; top: -50px; transition: top .5s;}
+	.menu_icon img{padding: 10px;}
+
+.home{background-color: #fcc800;}
+	.somos{background-color: #639fe3;}
+		.produto{background-color: #f10c0b;}
+			.contato{background-color: #f916d6;}
+
+.banner{width: 590px; height: 160px; overflow: hidden; border: solid 2px #2b2b38; box-shadow: 1px 1px 4px #000000; margin-top: 40px;}
+	.banner img{width: 596px; height: 160px;}
+		.baneer-item{width: 596px; height: 160px; position: relative;}
+			.banner-gif{width: 200px; height: 120px; border: solid 2px #2b2b38; position: absolute; top: 5px; left: 380px;}
+				.banner-gif img{width: 200px; height: 120px;}
+					.banner-gif-border{border: solid 0px #ed1300; right: 20px;}
+
+.categorias{width: 300px; height: 350px; float: left; position: relative; text-align: center;}
+	.categorias h2{width: 300px; position: absolute; top: 46px;}
+		.categorias h2 a{text-decoration: none; color: #cccccd;}
+			.categorias h2 a span{color: #1b1919;}
+
+.categorias-texto{width: 220px; height: 123px; position: absolute; top: 198px; left: 40px;}
+	.categorias-texto p{color: #cccccd; text-align: center; font-size: 14px; line-height: 21px;}
+		.categorias-banner{width: 220px; height: 100px; position: absolute; border: solid 2px #242430; overflow: hidden; top: 90px; left: 38px;}
+			.btn_confira{width: 150px; height: 30px; position: absolute; bottom: 25px; left: 75px; text-align: center;  background-color: #242430; transition: background-color .5s;}
+				.btn_confira p{width: 150px; height: 30px; padding: 3px 0;}
+					.btn_confira p a{text-decoration: none; color: #cccccd; font-size: 15px;}
+						.btn_confira p a span{font-size: 10px;}
+
+.rodape-conteudo{width: 600px; height: 200px; position: relative; text-align: center;}
+	.rodape-conteudo h1{width: 440px; height: 135px; position: absolute; top: 10px; left: 80px;}
+		.rodape-menu-containner{width: 245px; height: 50px; position: absolute; top: 140px; left: 112.5px;}
+			.rodape-menu-item{width: 50px; height: 50px; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%;float: left; margin-right: 15px; opacity: 1; transition: opacity .4s;} .margem-direita-zero{margin-right: 0;}
+				.rodape-menu-item img{padding: 5px;}
+
+.contenner-sociais{width: 115px; height: 50px; position: absolute; top: 140px; left: 372.5px;}
+	.item-sociais{width: 50px; height: 50px; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%; float: left; margin-right: 15px;} .margem-direita-zero{margin-right: 0;}
+		.item-sociais img{padding: 5px;}
+			.face-1{background-color: #ffffff; position: relative;}
+				.face-2{background-color: #2556a1; position: absolute; top: 0; opacity: 0; transition: opacity .3s;}
+					.you-1{background-color: #ffffff; position: relative;}
+						.you-2{background-color: #ff182c; position: absolute; top: 0; opacity: 0; transition: opacity .3s;}
+/*==========================================================================================================================================
+                                                      EFEITO HOVER - TABLETS
+===========================================================================================================================================*/
+.menu_texto:HOVER .menu_icon{top: 0;}
+.btn_confira:HOVER{background-color: #383848;}
+.rodape-menu-item:HOVER {opacity: .5;}
+.face-1:HOVER .face-2{opacity: 1;}
+.you-1:HOVER .you-2{opacity: 1;}
+}
+/*==========================================================================================================================================
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||| FIM - TABLETS |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+===========================================================================================================================================*/
+/*==========================================================================================================================================
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| CELULARES ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+===========================================================================================================================================*/
+@media(max-width: 480px){
+/*==========================================================================================================================================
+                                                         ESTILOS CELULARES
+===========================================================================================================================================*/
+body{background: url("../_IMG/img_fundo.jpg"); font-family: 'Arial'; font-size: 18px;}
+header{width: 300px; height: 50px;}
+#tarja-topo{width: 100%; height: 40px; background-color: #1c1d29; border-top: solid 10px #383848; float: left; position: fixed;}
+#menu{width: 300px; height: 50px; background-color: #1c1d29; position: fixed; z-index: 999;}
+
+#logo{width: 300px; height: 75px;}
+	#logo h1{text-align: center; top: 60px; margin: auto;}
+		#logo h1 img{width: 95%; height: 100%; margin: 20px auto;}
+
+#categoria-container{width: 300px; height: 1400px; margin: 30px 0 0 0;}
+
+#rodape{width: 100%; background-color: #1c1d29; border-top: solid 3px #383848;}
+
+#tarja-inferior{width: 100%; height: 130px; background-color: #000000; border-top: solid 2px #383848; text-align: center;}
+	#tarja-inferior p{color: #cccccd; font-size: 12px; line-height: 20px; padding: 0px 0 0 0;}
+/*==========================================================================================================================================
+                                                           CLASSES CELULARES
+===========================================================================================================================================*/
+.center{width: 300px; margin: 0 auto;}
+
+.menu_texto{width: 75px; height: 50px; float: left; text-align: center; position: relative;}
+	.menu_texto a{text-decoration: none; color: #cccccd; font-size: 16px;}
+		.menu_texto a p{display: none;}
+			.menu_texto_icon{width: 40px; height: 40px; position: absolute; top: 0;}
+				.menu_texto_icon img{width: 80%; height: 80%; padding: 17px; opacity: 0;}
+
+.menu_icon{width: 75px; height: 50px; position: absolute; top: 0px;}
+	.menu_icon img{padding-top: 5px;}
+
+.home{background-color: #fcc800;}
+	.somos{background-color: #639fe3;}
+		.produto{background-color: #f10c0b;}
+			.contato{background-color: #f916d6;}
+
+.banner{width: 296px; height: 150px; overflow: hidden; border: solid 2px #2b2b38; box-shadow: 1px 1px 4px #000000; margin-top: 45px;}
+	.banner img{width: 465px; height: 150px;}
+		.baneer-item{width: 296px; height: 150px; position: relative;}
+			.banner-gif{display: none;}
+				.banner-gif-border{border: solid 0px #ed1300;}
+
+.categorias{width: 300px; height: 350px; float: left; position: relative; text-align: center; margin-top: -10px;}
+	.categorias h2{width: 300px; position: absolute; top: 46px;}
+		.categorias h2 a{text-decoration: none; color: #cccccd;}
+			.categorias h2 a span{color: #1b1919;}
+
+.categorias-texto{width: 220px; height: 123px; position: absolute; top: 198px; left: 40px;}
+	.categorias-texto p{color: #cccccd; text-align: center; font-size: 14px; line-height: 21px;}
+		.categorias-banner{width: 220px; height: 100px; position: absolute; border: solid 2px #242430; overflow: hidden; top: 90px; left: 38px;}
+			.btn_confira{width: 150px; height: 30px; position: absolute; bottom: 25px; left: 75px; text-align: center;  background-color: #242430; transition: background-color .5s;}
+				.btn_confira p{width: 150px; height: 30px; padding: 3px 0;}
+					.btn_confira p a{text-decoration: none; color: #cccccd; font-size: 15px;}
+						.btn_confira p a span{font-size: 10px;}
+
+.rodape-conteudo{width: 300px; height: 150px; position: relative; text-align: center;}
+	.rodape-conteudo h1{width: 300px; height: 135px; position: absolute; top: 5px;}
+		.rodape-conteudo h1 img{display: none;}
+			.rodape-menu-containner{width: 245px; height: 50px; position: absolute; top: 20px; left: 27.5px;}
+				.rodape-menu-item{width: 50px; height: 50px; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%;float: left; margin-right: 15px; opacity: 1; transition: opacity .4s;} .margem-direita-zero{margin-right: 0;}
+					.rodape-menu-item img{padding: 5px;}
+
+.contenner-sociais{width: 115px; height: 50px; position: absolute; top: 85px; left: 92.5px;}
+	.item-sociais{width: 50px; height: 50px; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%; float: left; margin-right: 15px;} .margem-direita-zero{margin-right: 0;}
+		.item-sociais img{padding: 5px;}
+			.face-1{background-color: #ffffff; position: relative;}
+				.face-2{background-color: #2556a1; position: absolute; top: 0; opacity: 0; transition: opacity .3s;}
+					.you-1{background-color: #ffffff; position: relative;}
+						.you-2{background-color: #ff182c; position: absolute; top: 0; opacity: 0; transition: opacity .3s;}
+
+.tarja-inferior-texto{width: 150px; height: 130px; margin: 5px auto;}
+}
+/*==========================================================================================================================================
+|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| FIM - CELULARES |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+===========================================================================================================================================*/
+

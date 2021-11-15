@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="_CSS/style_contatos.css" />
+	<script type="text/javascript" src="_JS/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="_JS/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="_JS/script.js"></script>
+	<title>FORNIELIS - GAMES</title>
+</head>
+<body>
+	<div id="tarja-topo"></div>
+	<div id="interface" class="center">
+		<header>
+			<div id="menu" class="center">
+				<div class="menu_texto">
+					<div>
+						<a href="#"><p>Home</p></a>
+						<div class="menu_texto_icon"><a href="index.html"><img src="_IMG/icon_home.png" alt="Home" width="40px" height="40px" border="none"></a></div>
+					</div>
+					<div class="menu_icon home"><a href="index.html"><img src="_IMG/icon_home.png" alt="Home" width="40px" height="40px" border="none"></a></div>
+				</div>
+				<div class="menu_texto">
+					<div>
+						<a href="#"><p>Quem Somos</p></a>
+						<div class="menu_texto_icon"><a href="somos.html"><img src="_IMG/icon_somos.png" alt="Home" width="40px" height="40px" border="none"></a></div>
+					</div>
+					<div class="menu_icon somos"><a href="somos.html"><img src="_IMG/icon_somos.png" alt="quem_somos" width="40px" height="40px" border="none"></a></div>
+				</div>
+				<div class="menu_texto">
+					<div>
+						<a href="produtos.html"><p>Produtos</p></a>
+						<div class="menu_texto_icon"><a href="produtos.html"><img src="_IMG/icon_produtos.png" alt="Home" width="40px" height="40px" border="none"></a></div>
+					</div>
+					<div class="menu_icon produto"><a href="produtos.html"><img src="_IMG/icon_produtos.png" alt="produto" width="40px" height="40px" border="none"></a></div>
+				</div>
+				<div class="menu_texto">
+					<div>
+						<a href="#"><p>Contato</p></a>
+						<div class="menu_texto_icon"><a href="#"><img src="_IMG/icon_contato.png" alt="Home" width="40px" height="40px" border="none"></a></div>
+					</div>
+					<div class="menu_icon contato"><a href="#"><img src="_IMG/icon_contato.png" alt="contato" width="40px" height="40px" border="none"></a></div>
+				</div>
+			</div>
+		</header>
+	</div>
+	<form method="post" action="mailto:wilson.fornielis@rimo.net" class="center" id="formulario">
+		<fieldset id="usuario">
+			<legend>&nbsp;Dados para contato&nbsp;</legend>
+			<p><label for="cNome">Nome</label> <input class="input" type="text" name="tNome" id="cNome" size="30" placeholder="Primeiro nome"></p>
+			<p><label for="cSobre-nome">Sobre Nome</label> <input class="input" type="text" name="tNome" id="cSobre-nome" size="30" placeholder="Segundo nome"></p>
+			<p><label for="cData-nascimento">Data nascimento</label> <input class="input" type="date" name="tData" id="cData-nascimento" size="30" placeholder="Segundo nome"></p>
+			<fieldset id="sexo">
+				<legend>&nbsp;Sexo&nbsp;</legend>
+				<label for="cSexo-M">M&nbsp;</label><input type="radio" name="cSexo" id="Csexo-M">
+				<label for="cSexo-F">F&nbsp;</label><input type="radio" name="cSexo" id="Csexo-F">
+			</fieldset>
+			<p><label for="cEndereco">Endereco</label> <input class="input" type="text" name="tEndereco" id="cEndereco" size="50" placeholder="Nome da sua rua"></p>
+			<p><label for="cNumero">Numero</label> <input class="input" type="number" name="tNumero" id="cNumero" size="2" placeholder="Número"></p>
+			<p><label for="cCidade">Cidade</label> <input class="input" type="text" name="tCidade" id="cCidade" size="50" placeholder="Qual a sua cidade"></p>
+			<p><label for="cEstado">Estado</label> <input class="input" type="text" name="tEstado" id="cEstado" size="20" placeholder="Qual estado"></p>
+			<p><label for="cEmail">Email</label> <input class="input" type="email" name="tEmail" id="cEmail" size="30" placeholder="Digite seu email"></p>
+		</fieldset>
+		<fieldset>
+			<legend>&nbsp;Qual o produto do seu interesse&nbsp;</legend>
+			<p><label for="cJogos">Jogos <input class="ckb" type="checkbox" name="pInteresse" id="cJogos"></label></p>
+			<p><label for="cArcade">Arcade <input class="ckb" type="checkbox" name="pInteresse" id="cArcade"></label></p>
+			<p><label for="cMini">Mini <input class="ckb" type="checkbox" name="pInteresse" id="cMini"></label></p>
+			<p><label for="cPortatil">Portáteis <input class="ckb" type="checkbox" name="pInteresse" id="cPortatil"></label></p>
+			<p><textarea name="tMensagem" id="cMensagem" cols="25" rows="9" placeholder="Deixe sua mensagem"></textarea></p>
+		</fieldset>
+		<input id="btn_enviar" type="image" src="_IMG/btn_enviar.png" width="118px" height="33px" border="none">
+	</form>
+		<div id="rodape">
+			<div class="center rodape-conteudo">
+				<h1><a href="index.html"><img src="_IMG/logo_pequeno.png" alt="logo" width="440px" height="135px" border="none"></a></h1>
+				<div class="rodape-menu-containner">
+					<div class="rodape-menu-item home"><a href="index.html"><img src="_IMG/icon_home.png" alt="Home" width="40px" height="40px" border="none"></a></div>
+					<div class="rodape-menu-item somos"><a href="somos.html"><img src="_IMG/icon_somos.png" alt="Home" width="40px" height="40px" border="none"></a></div>
+					<div class="rodape-menu-item produto"><a href="produtos.html"><img src="_IMG/icon_produtos.png" alt="Home" width="40px" height="40px" border="none"></a></div>
+					<div class="rodape-menu-item contato margem-direita-zero"><a href="#"><img src="_IMG/icon_contato.png" alt="Home" width="40px" height="40px" border="none"></a></div>
+				</div>
+				<div class="contenner-sociais">
+					<div class="item-sociais face-1">
+						<a href="#"><img src="_IMG/icon_face_azul_01.png" alt="Home" width="40px" height="40px" border="none"></a>
+						<div class="item-sociais face-2">
+							<a href="#"><img src="_IMG/icon_face_azul_02.png" alt="Home" width="40px" height="40px" border="none"></a>
+						</div>
+					</div>
+					<div class="item-sociais you-1 margem-direita-zero">
+						<a href="#"><img src="_IMG/icon_youtube_vermelho_01.png" alt="Home" width="40px" height="40px" border="none"></a>
+						<div class="item-sociais you-2 margem-direita-zero">
+							<a href="#"><img src="_IMG/icon_youtube_vermelho_02.png" alt="Home" width="40px" height="40px" border="none"></a>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	<div id="tarja-inferior">
+		<div class="tarja-inferior-texto">
+			<p>&copy; 2015 - 2016 | Fornielis Desenvolvimento | Todos direitos reservados.<br>É proibida a reprodução total ou parcial de qualquer conteúdo desse site.</p>
+		</div>
+	</div>
+</body>
+</html>
